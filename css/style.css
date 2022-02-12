@@ -1,0 +1,104 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.left1 button{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px; 
+}
+.img-logo{
+    border-bottom: solid rgb(218, 216, 216) .1px;
+}
+.img-logo img{
+    margin-left: 60px;
+}
+.sec0 hr,
+.sec3 hr,
+.sec4 hr,
+.sec5 hr,
+.sec6 hr,
+.sec7 hr{
+    color:rgb(253, 180, 44);
+    width:150px;
+    text-align: center;
+    border: solid;
+}
+.sec0 p{
+ margin-left: 20%;
+ margin-right: 20%;
+}
+.sec3 .right3 span{
+    border:solid 2px rgb(253, 180, 44);
+    color:rgb(253, 180, 44);
+    border-radius: 100%;
+    width:40px;
+    font-weight: bold;
+   text-align: center;
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+    margin-right: 10px;
+    font-size: large;
+}
+.sec5{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sec6{
+    background-color: rgb(243, 242, 242);
+}
+.sec6 .card hr{
+    width: 300px;
+    border-top:solid 0.1px;
+    margin-top: 20px;
+    color:rgb(243, 242, 242);
+}
+.sec6 .card button{
+    border-radius: 20px;
+    width: max-content;
+    margin: auto;
+}
+.cont button{
+    border-radius: 20px;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.foot .na a{
+    text-decoration: none;
+    display: inline-flex;
+    color: blanchedalmond;
+    
+}
+.foot .na li{
+margin-left: 5px;
+}
+.foot .so a{
+    text-decoration: none;
+    display: inline-flex;
+    color: blanchedalmond;
+    
+}
+.foot .so li{
+    margin-right: 5px;
+    }
+.foo{
+    display: flex;
+    justify-content: space-around;
+}
+.co{
+    margin-left: 0px;
+    margin-right: 0px;
+}
